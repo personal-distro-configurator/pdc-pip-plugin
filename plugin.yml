@@ -2,7 +2,7 @@
 plugins:
   steps:
     import:
-      - ${settings_path_plugins}/pdc-pip-plugin/sh/pip.sh
+      - ${pdcyml_settings_path_plugins}/pdc-pip-plugin/sh/pip.sh
     confirm:
       - pip_plugin_confirm
     execute:
